@@ -1,0 +1,83 @@
+<html lang="en">
+  <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <body class=”contiainer” style="width:85%;height:30%;">
+    
+    <title>Form Project</title>
+
+  <div style="width:50%;float:left;">
+    <label for="InputFirstName" class="form-label">First name</label>
+          <br>
+        <input type="text" class="form-control" id="firstName" maxlength="20">
+  </div>
+  
+  <div style ="width:50%;float:right">
+    <label for="InputLastName" class="form-label">Last name</label>
+    <br>
+    <input type="text" class="form-control" id="lastName" maxlength="20">
+    </div>
+
+    <label for="inputAddress" class="form-label">Address</label>
+    <br>
+    <input type="text" class="form-control" id="address" size="100%" maxlength="100">
+  <br>
+
+
+    <div style="width:50%;display:inline-block;float:left;">
+      <label for="city" class="form-label">City</label>
+      <br>
+      <input type="text" class="form-control" id="city" size="40%" maxlength="20">
+    </div>
+
+    <!--state and zip-->
+      
+    <div style ="width:25%;display:inline-block;">
+      <br>
+      <label for="states">State:</label>
+
+      <select name="states" id="states">
+        <option value="california">California</option>
+        <option value="kansas">Kansas</option>
+        <option value="michigan">Michigan</option>
+        <option value="illinois">Illinois</option>
+        <option value="virginia">Virginia</option>
+      </select>
+      </div>
+
+    <div style ="width:25%;float:right;display:inline-block;">
+      <label for="zip" class="form-label">Zipcode</label>
+      <br>
+      <input type="text" class="form-control" id="zip" size="25%" maxlength="10">
+    </div>
+    </div>
+
+    <div style="width:50%;float:left;">
+      <label for="inputPhoneNumber" class="form-label">Phone number</label>
+              <br>
+            <input type="text" class="form-control" id="phoneNumber" maxlength="10">
+      </div>
+    </div>
+
+    <div style ="width:50%;float:right;">
+      <label for="inputEmail" class="form-label">Email</label>
+              <br>
+            <input type="text" class="form-control" id="email" maxlength="30">
+      </div>
+
+      <p>Perferred method of contact</p>
+
+      <input type="radio" id="email" name="email" value="email">
+      <label for="email">Email</label>
+      <input type="radio" id="text" name="text" value="text">
+      <label for="text">Text</label><br>
+
+<br>
+
+      </div>
+  
+  <button type="submit" class="btn btn-primary">Sign in</button>
+</head>
+
+</html>
